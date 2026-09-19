@@ -1,8 +1,8 @@
 # 🚁 UOM无人机平台 - 视频后台播放与防暂停助手
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-Install-red.svg)](https://greasyfork.org/zh-CN/scripts)
-[![ScriptCat](https://img.shields.io/badge/ScriptCat-%E8%84%9A%E6%9C%AC%E7%8C%AB-orange.svg)](https://scriptcat.org/)
+[![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-Install-red.svg)](https://greasyfork.org/zh-CN/scripts/596454)
+[![ScriptCat](https://img.shields.io/badge/ScriptCat-%E8%84%9A%E6%9C%AC%E7%8C%AB-orange.svg)](https://scriptcat.org/zh-CN/script-show-page/8046)
 
 一款专为 **中国民用航空局民用无人驾驶航空器综合管理平台（UOM）** 打造的油猴辅助脚本。
 
@@ -22,38 +22,19 @@
 ## 📥 安装方式
 
 ### 方式一：应用市场一键安装（推荐）
-- **Greasy Fork**：[点击前往安装](https://greasyfork.org/zh-CN/scripts) *(待提交后更新专属链接)*
-- **脚本猫 (ScriptCat)**：[点击前往安装](https://scriptcat.org/) *(待提交后更新专属链接)*
+- **Greasy Fork 脚本页面**：[点击前往安装 (Greasy Fork)](https://greasyfork.org/zh-CN/scripts/596454)  
+  *(也可直接点击 [Greasy Fork 一键安装直链](https://greasyfork.org/scripts/596454/code/script.user.js) 调起浏览器扩展安装)*
+- **脚本猫 (ScriptCat) 脚本页面**：[点击前往安装 (脚本猫)](https://scriptcat.org/zh-CN/script-show-page/8046)  
+  *(也可直接点击 [脚本猫一键安装直链](https://scriptcat.org/scripts/code/8046/UOM无人机平台%20-%20视频后台播放与防暂停助手.user.js) 调起浏览器扩展安装)*
 
 ### 方式二：从 GitHub Raw 链接直接安装
-在浏览器已安装 **Tampermonkey** 或 **ScriptCat** 的前提下，点击下方链接：
+在浏览器已安装 **Tampermonkey** 或 **ScriptCat** 的前提下，点击下方链接：  
 👉 [点击直接安装 uom-helper.user.js](https://raw.githubusercontent.com/wllzhang/uom-helper/main/uom-helper.user.js)
 
 ### 方式三：手动复制安装
 1. 打开浏览器 Tampermonkey 扩展图标 -> 点击 **“添加新脚本”**。
 2. 复制本项目 [`uom-helper.user.js`](./uom-helper.user.js) 内的全部代码并粘贴覆盖。
 3. 按 `Ctrl + S` 保存即可。
-
----
-
-## 🛠️ 自动化发布与同步配置（开发者指南）
-
-本项目已适配 **Greasy Fork** 和 **ScriptCat** 的自动化 Webhook 机制。每次在 GitHub 提交或推送代码，平台将自动拉取并发布新版本：
-
-### 1. Greasy Fork 自动同步设置
-1. 登录 [Greasy Fork](https://greasyfork.org/zh-CN)并在首次发布脚本后，进入该脚本页面。
-2. 点击 **“管理” (Admin)** -> 找到 **“源码同步” (Source Syncing)**。
-3. 复制 Greasy Fork 为你生成的 **Webhook 专属 URL**。
-4. 打开本 GitHub 仓库 -> **Settings** -> **Webhooks** -> **Add webhook**：
-   - **Payload URL**: 粘贴 Greasy Fork 的 Webhook URL
-   - **Content type**: 选择 `application/x-www-form-urlencoded`
-   - **Events**: 勾选 `Just the push event`
-5. 点击 **Add webhook** 保存。
-
-### 2. 脚本猫 (ScriptCat) 自动同步设置
-1. 登录 [脚本猫](https://scriptcat.org/) -> 进入脚本管理详情页。
-2. 打开 **“版本管理 / Webhook 同步”** 获取 Webhook 地址。
-3. 同样添加到 GitHub 仓库的 Webhooks 列表中即可。
 
 ---
 

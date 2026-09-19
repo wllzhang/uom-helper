@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         UOM无人机平台 - 视频后台播放与防暂停助手
 // @namespace    https://github.com/wllzhang/uom-helper
-// @version      1.0.0
+// @version      1.0.1
 // @description  中国民用航空局UOM无人驾驶航空器综合管理平台操控员培训视频助手：解除切换窗口自动暂停，解除10分钟无操作防挂机弹窗，保持原速合规累计学时。
 // @author       wllzhang
 // @match        https://uom.caac.gov.cn/*
-// @icon         https://uom.caac.gov.cn/favicon.ico
 // @run-at       document-start
 // @grant        none
 // @license      MIT
