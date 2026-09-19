@@ -62,7 +62,7 @@
 如果这个小工具帮你节省了宝贵的时间，欢迎请作者喝一杯咖啡 ☕！
 
 <p align="center">
-  <img src="./assets/reward.jpg" alt="打赏支持" width="480" />
+  <img src="https://raw.githubusercontent.com/wllzhang/uom-helper/main/assets/reward.jpg" alt="打赏支持" width="480" />
 </p>
 <p align="center">
   <i>感谢你的认可与支持，祝各位飞友理论考试顺利通关、畅快起飞！</i>
